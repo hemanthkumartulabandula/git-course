@@ -1,1 +1,30 @@
 File belongs to Hemanth
+
+(base) hemanth@Hemanths-Air git-course % git remote -v
+origin  git@github.com:hemanthkumartulabandula/git-course.git (fetch)
+origin  git@github.com:hemanthkumartulabandula/git-course.git (push)
+(base) hemanth@Hemanths-Air git-course % git tag -a v1.0 -m "1st release"
+(base) hemanth@Hemanths-Air git-course % git tag
+v1.0
+(base) hemanth@Hemanths-Air git-course % git show v1.0
+tag v1.0
+Tagger: Hemanth <hemanth-kumar.tulabandula.211@my.csun.edu>
+Date:   Mon Jan 27 02:03:02 2025 -0800
+
+1st release
+
+commit 7ab5164477775b667e99f1fab6d26e1af986e41b (HEAD -> main, tag: v1.0, origin/main)
+Author: Hemanth <hemanth-kumar.tulabandula.211@my.csun.edu>
+Date:   Mon Jan 27 01:54:12 2025 -0800
+
+    Userservice Created
+
+diff --git a/Userservice.txt b/Userservice.txt
+new file mode 100644
+index 0000000..61a4e20
+--- /dev/null
++++ b/Userservice.txt
+@@ -0,0 +1 @@
++File belongs to Hemanth
+\ No newline at end of file
+(base) hemanth@Hemanths-Air git-course % ;2B
